@@ -1,0 +1,22 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import pandas as pd
+
+    grades = {'Student': {0: 'Ann', 1: 'Bob', 2: 'Chris', 3: 'Drake', 4: 'Emma', 5: 'Finn', 6: 'Ginny'}, 'Algebra': {0: 10, 1: 8, 2: 9, 3: 3, 4: 8, 5: 4, 6: 6}, 'Geometry': {0: 8, 1: 6, 2: 9, 3: 6, 4: 9, 5: 4, 6: 5}, 'Physics': {0: 7, 1: 3, 2: 9, 3: 5, 4: 4, 5: 7, 6: 10}, 'Computer_science': {0: 10, 1: 4, 2: 6, 3: 7, 4: 5, 5: 6, 6: 4}, 'English': {0: 9, 1: 9, 2: 9, 3: 10, 4: 5, 5: 8, 6: 10}, 'Biology': {0: 8, 1: 9, 2: 7, 3: 4, 4: 5, 5: 7, 6: 3}}
+    df = pd.DataFrame(grades)
+
+    # your code here
+    print(...)
+  learner_created: false
+- name: name_of_the_pic.jpg
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/12583#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 18 Apr 2021 20:40:47 UTC
+record: -1
